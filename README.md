@@ -1,4 +1,5 @@
 # Intel-Edison-Getting-Started
+# https://www.sitepoint.com/getting-started-with-programming-the-intel-edison/
 
 configure_edison --setup
 configure_edison --wifi
