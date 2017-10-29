@@ -3,9 +3,13 @@
 # http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html
 
 configure_edison --setup
+
 configure_edison --wifi
+
 wpa_cli status
+
 systemctl poweroff
+
 shutdown -P now
 
 ssh -X root@192.168.5.44
