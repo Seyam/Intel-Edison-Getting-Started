@@ -5,6 +5,8 @@
 configure_edison --setup
 configure_edison --wifi
 wpa_cli status
+systemctl poweroff
+shutdown -P now
 
 ssh -X root@192.168.5.44
 
@@ -17,7 +19,7 @@ echo 20.2 > file_name.txt
 //to view
 
 vi file_name.txt
-
+nano filename.ext
 
 
 To find your board’s IP address, establish a serial communication session with your board and enter the command:
@@ -35,5 +37,9 @@ On the board, hold the PWR button down for about 4 seconds. The LED at JS2 near 
 
 ls
 ls /sketch
+mkdir
+cd /
+cd..
+rm filename.ext
 clear
 curl  //to print current channel(URL)
