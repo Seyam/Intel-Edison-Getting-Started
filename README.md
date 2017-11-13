@@ -1,6 +1,8 @@
 # Intel-Edison-Getting-Started
 # https://www.sitepoint.com/getting-started-with-programming-the-intel-edison/
 # http://alextgalileo.altervista.org/edison-package-repo-configuration-instructions.html
+# https://m2aglabs.com/2015/10/14/updating-mraa-andor-upm-on-intel-edison/
+
 
 configure_edison --setup
 
